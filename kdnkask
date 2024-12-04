@@ -1,0 +1,272 @@
+[33mcommit 2ed9d4ab7c1f90479a688d36c308c5e654204424[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: UrvishaLathiya <145110220+UrvishaLathiya@users.noreply.github.com>
+Date:   Tue Dec 3 21:38:58 2024 +0530
+
+    Add files via upload
+
+[1mdiff --git a/Profile_Image.jpg b/Profile_Image.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f2fe15c[m
+Binary files /dev/null and b/Profile_Image.jpg differ
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a79c00c[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,66 @@[m
+[32m+[m[32m<!DOCTYPE html>[m[41m[m
+[32m+[m[32m<html lang="en">[m[41m[m
+[32m+[m[32m<head>[m[41m[m
+[32m+[m[32m    <meta charset="UTF-8">[m[41m[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m[41m[m
+[32m+[m[32m    <title>Resume - Urvisha Lathiya</title>[m[41m[m
+[32m+[m[32m    <link rel="stylesheet" href="styles.css">[m[41m[m
+[32m+[m[32m    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />[m[41m[m
+[32m+[m[32m</head>[m[41m[m
+[32m+[m[32m<body>[m[41m[m
+[32m+[m[32m    <div class="resume">[m[41m[m
+[32m+[m[32m        <div class="left-section">[m[41m[m
+[32m+[m[32m            <div class="profile-image">[m[41m[m
+[32m+[m[32m                <img src="Profile_Image.jpg" alt="Urvisha Lathiya">[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m            <div class="contact" align="left">[m[41m[m
+[32m+[m[32m                <h3>Contact</h3>[m[41m[m
+[32m+[m[32m                <p><i class="fa-solid fa-phone icon"></i> +91-9824189299</p>[m[41m[m
+[32m+[m[32m                <p><i class="fa-solid fa-envelope icon"></i> <a href="mailto:lathiyaurvisha@gmail.com">lathiyaurvisha@gmail.com</a></p>[m[41m[m
+[32m+[m[32m                <p><i class="fa-solid fa-location-dot icon"></i> Gandhinagar, Gujarat</p>[m[41m[m
+[32m+[m[32m                <p><i class="fa-brands fa-linkedin icon"></i> <a href="https://www.linkedin.com/in/urvisha-lathiya-4b12b7291/" target="_blank">linkedin.com/in/urvisha-lathiya</a></p>[m[41m[m
+[32m+[m[32m                <p><i class="fa-brands fa-github icon"></i> <a href="https://github.com/UrvishaLathiya" target="_blank">github.com/UrvishaLathiya</a></p>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m            <div class="education" align="left">[m[41m[m
+[32m+[m[32m                <h3>Education</h3>[m[41m[m
+[32m+[m[32m                <p><strong>2023-Present:</strong> MCA, LDRP-ITR | CGPA: 9.46</p>[m[41m[m
+[32m+[m[32m                <p><strong>2023:</strong> BCA, VNSGU | CGPA: 8.86</p>[m[41m[m
+[32m+[m[32m                <p><strong>2020:</strong> HSC, Gujarat State Board | 86%</p>[m[41m[m
+[32m+[m[32m                <p><strong>2018:</strong> SSC, Gujarat State Board | 88%</p>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m        </div>[m[41m[m
+[32m+[m[32m        <div class="right-section">[m[41m[m
+[32m+[m[32m            <div class="header">[m[41m[m
+[32m+[m[32m                <h1>Urvisha Lathiya</h1>[m[41m[m
+[32m+[m[32m                <h2>Backend Developer</h2>[m[41m[m
+[32m+[m[32m                <p>[m[41m[m
+[32m+[m[32m                    Enthusiastic MCA student with hands-on experience in backend development. Skilled in creating efficient web applications and eager to contribute to meaningful projects in a professional setting.[m[41m[m
+[32m+[m[32m                </p>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m            <div class="skills">[m[41m[m
+[32m+[m[32m                <h3>Skills</h3>[m[41m[m
+[32m+[m[32m                <ul>[m[41m[m
+[32m+[m[32m                    <li>Programming: Java, Python, PHP</li>[m[41m[m
+[32m+[m[32m                    <li>Frontend: HTML, CSS, JavaScript, Bootstrap</li>[m[41m[m
+[32m+[m[32m                    <li>Backend: MySQL, Oracle</li>[m[41m[m
+[32m+[m[32m                    <li>UI/UX Tools: Figma</li>[m[41m[m
+[32m+[m[32m                    <li>Data Structures & Algorithms</li>[m[41m[m
+[32m+[m[32m                </ul>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m            <div class="projects">[m[41m[m
+[32m+[m[32m                <h3>Projects</h3>[m[41m[m
+[32m+[m[32m                <p><strong>E-commerce System:</strong> Developed a platform for online shopping with cart, wishlist.</p>[m[41m[m
+[32m+[m[32m                <p><strong>Advertisement System:</strong> A backend project for managing ad like Broadcast, Printing and Outdoor Advertises.</p>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m            <div class="languages">[m[41m[m
+[32m+[m[32m                <h3>Languages</h3>[m[41m[m
+[32m+[m[32m                <ul>[m[41m[m
+[32m+[m[32m                    <li>English</li>[m[41m[m
+[32m+[m[32m                    <li>Hindi</li>[m[41m[m
+[32m+[m[32m                    <li>Gujarati</li>[m[41m[m
+[32m+[m[32m                </ul>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m        </div>[m[41m[m
+[32m+[m[32m    </div>[m[41m[m
+[32m+[m[32m</body>[m[41m[m
+[32m+[m[32m</html>[m[41m[m
+[1mdiff --git a/styles.css b/styles.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..161be71[m
+[1m--- /dev/null[m
+[1m+++ b/styles.css[m
+[36m@@ -0,0 +1,184 @@[m
+[32m+[m[32m/* General Body Styles */[m[41m[m
+[32m+[m[32mbody {[m[41m[m
+[32m+[m[32m    font-family: 'Arial', sans-serif;[m[41m[m
+[32m+[m[32m    margin: 0;[m[41m[m
+[32m+[m[32m    padding: 0;[m[41m[m
+[32m+[m[32m    background-color: #f8f8f8;[m[41m[m
+[32m+[m[32m    color: #333;[m[41m[m
+[32m+[m[32m    display: flex;[m[41m[m
+[32m+[m[32m    justify-content: center;[m[41m[m
+[32m+[m[32m    align-items: start;[m[41m[m
+[32m+[m[32m    min-height: 100vh;[m[41m[m
+[32m+[m[32m    padding: 20px;[m[41m[m
+[32m+[m[32m    box-sizing: border-box;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* Resume Container */[m[41m[m
+[32m+[m[32m.resume {[m[41m[m
+[32m+[m[32m    display: flex;[m[41m[m
+[32m+[m[32m    flex-wrap: wrap;[m[41m [m
+[32m+[m[32m    width: 90%;[m[41m [m
+[32m+[m[32m    max-width: 900px;[m[41m[m
+[32m+[m[32m    border: 2px solid #333;[m[41m[m
+[32m+[m[32m    background-color: #fff;[m[41m[m
+[32m+[m[32m    box-sizing: border-box;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* Left Section Styling */[m[41m[m
+[32m+[m[32m.left-section {[m[41m[m
+[32m+[m[32m    max-width: 40%;[m[41m [m
+[32m+[m[32m    padding: 20px;[m[41m[m
+[32m+[m[32m    background-color: #f0f0f0;[m[41m[m
+[32m+[m[32m    border-right: 2px solid #333;[m[41m[m
+[32m+[m[32m    text-align: center;[m[41m[m
+[32m+[m[32m    box-sizing: border-box;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.profile-image img {[m[41m[m
+[32m+[m[32m    width: 150px;[m[41m[m
+[32m+[m[32m    height: 150px;[m[41m[m
+[32m+[m[32m    border-radius: 50%;[m[41m[m
+[32m+[m[32m    border: 3px solid #333;[m[41m[m
+[32m+[m[32m    margin-bottom: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* Contact Section Styling */[m[41m[m
+[32m+[m[32m.contact {[m[41m[m
+[32m+[m[32m    display: flex;[m[41m[m
+[32m+[m[32m    flex-direction: column;[m[41m[m
+[32m+[m[32m    align-items: flex-start;[m[41m [m
+[32m+[m[32m    padding: 10px;[m[41m[m
+[32m+[m[32m    margin-bottom: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.contact h3 {[m[41m[m
+[32m+[m[32m    font-size: 1.5rem;[m[41m[m
+[32m+[m[32m    margin-bottom: 10px;[m[41m[m
+[32m+[m[32m    border-bottom: 1px solid #333;[m[41m[m
+[32m+[m[32m    display: inline-block;[m[41m[m
+[32m+[m[32m    padding-bottom: 5px;[m[41m[m
+[32m+[m[32m    color: #222;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.contact p {[m[41m[m
+[32m+[m[32m    font-size: 1rem;[m[41m[m
+[32m+[m[32m    margin-bottom: 10px;[m[41m[m
+[32m+[m[32m    display: flex;[m[41m[m
+[32m+[m[32m    align-items: center;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* Icons Styling */[m[41m[m
+[32m+[m[32m.icon {[m[41m[m
+[32m+[m[32m    margin-right: 10px;[m[41m [m
+[32m+[m[32m    font-size: 1.2rem;[m[41m [m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* Links Styling */[m[41m[m
+[32m+[m[32ma {[m[41m[m
+[32m+[m[32m    word-wrap: break-word;[m[41m[m
+[32m+[m[32m    overflow-wrap: anywhere;[m[41m [m
+[32m+[m[32m    text-decoration: none;[m[41m[m
+[32m+[m[32m    color: #222;[m[41m[m
+[32m+[m[32m    font-size: 1rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32ma:hover {[m[41m[m
+[32m+[m[32m    text-decoration: underline;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* Right Section Styling */[m[41m[m
+[32m+[m[32m.right-section {[m[41m[m
+[32m+[m[32m    width: 100%;[m[41m [m
+[32m+[m[32m    max-width: 60%;[m[41m [m
+[32m+[m[32m    padding: 20px;[m[41m[m
+[32m+[m[32m    box-sizing: border-box;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.header h1 {[m[41m[m
+[32m+[m[32m    font-size: 2.5rem;[m[41m[m
+[32m+[m[32m    margin: 0;[m[41m[m
+[32m+[m[32m    color: #222;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.header h2 {[m[41m[m
+[32m+[m[32m    font-size: 1.2rem;[m[41m[m
+[32m+[m[32m    margin: 5px 0 20px;[m[41m[m
+[32m+[m[32m    color: #555;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.header p {[m[41m[m
+[32m+[m[32m    font-size: 1rem;[m[41m[m
+[32m+[m[32m    margin-bottom: 20px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/* Responsive Design */[m[41m[m
+[32m+[m[32m@media (max-width: 768px) {[m[41m[m
+[32m+[m[32m    .contact p {[m[41m[m
+[32m+[m[32m        font-size: 0.9rem;[m[41m [m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .contact .icon {[m[41m[m
+[32m+[m[32m        font-size: 1rem;[m[41m [m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .contact a {[m[41m[m
+[32m+[m[32m        font-size: 0.9rem;[m[41m [m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .left-section,[m[41m[m
+[32m+[m[32m    .right-section {[m[41m[m
+[32m+[m[32m        width: 100%;[m[41m [m
+[32m+[m[32m        border-right: none;[m[41m [m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .profile-image img {[m[41m[m
+[32m+[m[32m        width: 120px;[m[41m[m
+[32m+[m[32m        height: 120px;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .header h1 {[m[41m[m
+[32m+[m[32m        font-size: 2rem;[m[41m [m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .header h2 {[m[41m[m
+[32m+[m[32m        font-size: 1rem;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .header p {[m[41m[m
+[32m+[m[32m        font-size: 0.9rem;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m@media (max-width: 480px) {[m[41m[m
+[32m+[m[32m    .contact p {[m[41m[m
+[32m+[m[32m        font-size: 0.8rem;[m[41m [m
+[32m+[m[32m        line-height: 1.2;[m[41m [m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .contact a {[m[41m[m
+[32m+[m[32m        font-size: 0.8rem;[m[41m [m
+[32m+[m[32m        line-height: 1.2;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .contact {[m[41m[m
+[32m+[m[32m        word-wrap: break-word;[m[41m [m
+[32m+[m[32m        overflow-wrap: anywhere;[m[41m [m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .profile-image img {[m[41m[m
+[32m+[m[32m        width: 100px;[m[41m[m
+[32m+[m[32m        height: 100px;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .header h1 {[m[41m[m
+[32m+[m[32m        font-size: 1.8rem;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .header h2 {[m[41m[m
+[32m+[m[32m        font-size: 0.9rem;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    .header p {[m[41m[m
+[32m+[m[32m        font-size: 0.8rem;[m[41m[m
+[32m+[m[32m    }[m[41m[m
+[32m+[m[32m}[m[41m[m
